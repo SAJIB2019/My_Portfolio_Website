@@ -1,16 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { TbBrandJavascript } from "react-icons/tb";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
+  const [activeNav, setActiveNav] = useState("#");
   let links = [
-    { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "SKILL", link: "/" },
-    { name: "PORTFOLIO", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "HOME", link: "#" },
+    { name: "ABOUT", link: "#about" },
+    { name: "SKILL", link: "#skill" },
+    { name: "PORTFOLIO", link: "#services" },
+    { name: "CONTACT", link: "#contact" },
   ];
   let [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    let handler = () => {
+      setIsOpen(false);
+    };
+    document.addEventListener("mousedown", handler);
+  });
   return (
     <div className="shadow-xl w-full fixed top-0 left-0  bg-[#f8f8f8]">
       <div className="container">
@@ -39,6 +46,7 @@ const Navbar = () => {
               >
                 <a
                   href={link.link}
+                  onClick={() => setActiveNav(links.link)}
                   className="text-gray-800 hover:text-gray-400 duration-500"
                 >
                   {link.name}
