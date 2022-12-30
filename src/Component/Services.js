@@ -1,25 +1,25 @@
 import React from "react";
 let links = [
   {
-    img: "/images/Astha.png",
+    img: "../images/Astha.png",
     title: "Sveltekit Project",
     gitlink: "https://github.com/SAJIB2019/Simple-project-from-astha",
     livelink: "https://simple-project-from-astha.vercel.app",
   },
   {
-    img: "/images/portfolio.png",
+    img: "../images/portfolio.png",
     title: "Portfolio Website",
     gitlink: "https://github.com/SAJIB2019/Portfolio-website",
     livelink: "https://portfolio-website-mu-wine.vercel.app",
   },
   {
-    img: "/images/ecommerceWebsite.png",
+    img: "../images/ecommerceWebsite.png",
     title: "Ecomerce Website",
     gitlink: "https://github.com/SAJIB2019/Fully-Responsive-Ecommerce-Website",
     livelink: "https://fully-responsive-ecommerce-website.vercel.app/contact",
   },
   {
-    img: "/images/dashboard.png",
+    img: "../images/dashboard.png",
     title: "Dashboard Design",
     gitlink: "https://vercel.com/sajib2019/dash-board",
     livelink: "https://dash-board-beta.vercel.app",
