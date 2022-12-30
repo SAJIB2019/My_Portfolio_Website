@@ -3,6 +3,7 @@ import { AiFillFacebook } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiTwotoneMail } from "react-icons/ai";
+import CV from "./Resume/SoftwareEngineerSajibResume.pdf";
 const Hero = () => {
   return (
     <section id="#">
@@ -38,9 +39,11 @@ const Hero = () => {
                 <AiTwotoneMail />
               </a>
             </div>
-            <button className=" btn font-bold mt-2 md:mt-0 bg-gradient-to-r from-indigo-500 via-white to-pink-500 hover:from-pink-500 hover:to-yellow-500 duration-500">
-              Download Resume
-            </button>
+            <a href={CV} download={CV}>
+              <button className=" btn font-bold mt-2 md:mt-0 bg-gradient-to-r from-indigo-500 via-white to-pink-500 hover:from-pink-500 hover:to-yellow-500 duration-500">
+                Download Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>
