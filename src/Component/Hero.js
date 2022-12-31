@@ -17,7 +17,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className="flex flex-col justify-center items-center md:items-start mt-10 md:mt-0">
+          <div className="flex flex-col justify-center items-center md:items-start mt-4 md:mt-0">
             <p className="font-lora text-xl text-white">Hi There,</p>
             <h1 className="font-lora text-xl md:text-[35px] font-bold md:my-2 text-white">
               I'm Sohel <span className="text-red-300">Rana Sajib</span>
