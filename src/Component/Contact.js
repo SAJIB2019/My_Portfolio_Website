@@ -16,7 +16,7 @@ const Contact = () => {
                 <span className="font-bold text-2xl">Phone:</span>+880
                 018-25979759
               </p>
-              <p className="py-2 text-xl">
+              <p className="py-2 text-[15px] md:text-xl">
                 <span className="font-bold text-2xl">Email: </span>
                 sajib.sohelrana21@gmail.com
               </p>

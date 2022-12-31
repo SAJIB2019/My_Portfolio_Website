@@ -19,10 +19,10 @@ const Hero = () => {
 
           <div className="flex flex-col justify-center items-center md:items-start mt-10 md:mt-0">
             <p className="font-lora text-xl text-white">Hi There,</p>
-            <h1 className="font-lora text-3xl md:text-[35px] font-bold md:my-2 text-white">
+            <h1 className="font-lora text-xl md:text-[35px] font-bold md:my-2 text-white">
               I'm Sohel <span className="text-red-300">Rana Sajib</span>
             </h1>
-            <h1 className="font-lora text-2xl font-bold text-white">
+            <h1 className="font-lora text-xl md:text-2xl font-bold text-white">
               Software Engineer
             </h1>
             <div className="flex space-x-4 text-3xl my-2 md:my-4 text-white ">

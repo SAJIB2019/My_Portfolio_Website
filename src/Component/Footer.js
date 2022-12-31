@@ -31,11 +31,11 @@ const Footer = () => {
               </span>
               SRS
             </div>
-            <div className="text-white text-xl font-bold font-lora">
+            <div className="text-white text-[11px] font-bold font-lora">
               sajib.sohelrana21@gmail.com
             </div>
           </div>
-          <div className="flex justify-center items-center pt-4 md:pt-10  text-white text-[12px] md:text-xl font-bold font-lora">
+          <div className="flex justify-center items-center pt-4 md:pt-10  text-white text-[10px] md:text-xl font-bold font-lora">
             Copyright © 2022. All right reserved by Sajib
           </div>
         </div>

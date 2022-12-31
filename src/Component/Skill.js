@@ -8,7 +8,7 @@ const Skill = () => {
           <div className="flex flex-col justify-center items-center pb-[40px] font-lora">
             <p className="text-[20px] font-bold text-red-400">My Skill's</p>
             <h1 className="text-[23px] md:text-[40px] font-bold">
-              On Front-End Technologies
+              Front-End Technologies
             </h1>
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-6 md:space-x-4">
@@ -24,9 +24,9 @@ const Skill = () => {
               <p>EXPRESS JS</p>
               <p>SVELTEKIT</p>
             </div>
-            <div className="w-full lg:w-auto flex flex-col justify-center items-center text-[15px] md:text-xl p-20 space-y-4 border-[2px]  border-white font-bold font-lora bg-[#767676] hover:bg-white text-white hover:text-black duration-500 rounded-[20px]">
-              <p>TAILWIND CSS</p>
-              <p>COMPONENT CSS</p>
+            <div className="w-full lg:w-auto flex flex-col justify-center items-center text-[12px] md:text-xl p-20 space-y-4 border-[2px]  border-white font-bold font-lora bg-[#767676] hover:bg-white text-white hover:text-black duration-500 rounded-[20px]">
+              <p>TAILWIND_CSS</p>
+              <p>COMPONENT_CSS</p>
               <p>ES6</p>
               <p>REDUX</p>
             </div>
