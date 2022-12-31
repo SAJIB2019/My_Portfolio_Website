@@ -7,7 +7,7 @@ const Skill = () => {
         <div className="container flex flex-col  py-[80px]">
           <div className="flex flex-col justify-center items-center pb-[40px] font-lora">
             <p className="text-[20px] font-bold text-red-400">My Skill's</p>
-            <h1 className="text-[23px] md:text-[40px] font-bold">
+            <h1 className="text-[20px] md:text-[40px] font-bold">
               Front-End Technologies
             </h1>
           </div>
