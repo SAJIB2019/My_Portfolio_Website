@@ -3,7 +3,7 @@ import { AiFillFacebook } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiTwotoneMail } from "react-icons/ai";
-import CV from "./Resume/SoftwareEngineerSajibResume.pdf";
+import CV from "./Resume/Software_Engineer_sajib.pdf";
 const Hero = () => {
   return (
     <section id="#">
