@@ -31,7 +31,7 @@ const Footer = () => {
               </span>
               SRS
             </div>
-            <div className="text-white text-[11px] font-bold font-lora">
+            <div className="text-white text-[11px] md:text-xl font-bold font-lora">
               sajib.sohelrana21@gmail.com
             </div>
           </div>
